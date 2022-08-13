@@ -89,4 +89,42 @@
         margin-bottom: 50px;
        }
 
+       h5 {
+        margin-top: 80px;
+        font-family: 'Times New Roman', Times, serif;
+        color: green;
+        font-weight: bolder;
+        border-bottom: 2px solid;
+        font-size: 40px;
+       }
+
+       h6 {
+        margin-top: 80px;
+        font-family: 'Times New Roman', Times, serif;
+        color: green;
+        font-weight: bolder;
+        border-bottom: 2px solid;
+        font-size: 40px;
+       }
+
+       h3 {
+        margin-top: 80px;
+        font-family: 'Times New Roman', Times, serif;
+        color: green;
+        font-weight: bolder;
+        border-bottom: 2px solid;
+        font-size: 40px;
+       }
+
+       h4 {
+        margin-top: 80px;
+        font-family: 'Times New Roman', Times, serif;
+        color: green;
+        font-weight: bolder;
+        border-bottom: 2px solid;
+        font-size: 40px;
+       }
+
+       
+
     
