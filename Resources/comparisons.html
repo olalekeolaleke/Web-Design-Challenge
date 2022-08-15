@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web Visualization Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+
+    <!-- Creating Navbar-->
+    
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../Web-Design-Challenge/index.html">Latitude</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./comparisons.html">comparisons</a>
+                </li>
+                <li class="nav-item">
+                 <a class="nav-link" href="../csvtodata.html">data</a>
+                </li>
+                <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Plots
+                </a>
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../Web-Design-Challenge/assets/images/lat_vs_temp.png">Max Temperature</a></li>
+                <li><a class="dropdown-item" href="../Web-Design-Challenge/assets/images/lat_vs_hum.png">Humidity</a></li>
+                <li><a class="dropdown-item" href="../Web-Design-Challenge/assets/images/lat_vs_cloud.png">Cloudness</a></li>
+                <li><a class="dropdown-item" href="../Web-Design-Challenge/assets/images/lat_vs_wind.png">Wind Speed</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+        <h1>Comparisons: Latitude vs X.</h1>
+        <br>
+            <p class="intro"> Click on any of the plots to get an in-depth analysis.</p>
+        <br>
+        <section class="feature">
+            <figure>
+                <figcaption>vs Max Temperature</figcaption>
+                    <a href="./lat-vs-max_temp.html">
+                        <img src="../assets/images/lat_vs_temp.png" alt="lat vs max temp"> 
+                    </a>             
+            </figure>
+        </section>
+        <section class="feature">
+            <figure>
+                <figcaption>vs Humidity</figcaption>
+                    <a href="./lat-vs-humidity.html">
+                        <img src="../assets/images/lat_vs_hum.png" alt="lat vs humidity">  
+                    </a>            
+            </figure>
+        </section>
+        <section class="feature">
+            <figure>
+                <figcaption>vs Cloudness</figcaption>
+                    <a href="">
+                        <img href="./lat-vs-cloudness.html" src="../assets/images/lat_vs_cloud.png" alt="lat vs cloudness">  
+                    </a>            
+            </figure>
+        </section>
+        <section class="feature">
+            <figure>
+                <figcaption>vs Wind Speed</figcaption>
+                    <a href="./lat-vs-windspeed.html">
+                        <img src="../assets/images/lat_vs_wind.png" alt="lat vs wind speed"> 
+                    </a>             
+            </figure>
+        </section>
+
+        
+
+       
+
+                 
+                    <form>
+                        <input type="button" value="Go back!" onclick="history.go(-1)">
+                    </form>
+
+  </body>
+</html>
+
+    
+ 
+
+
+
